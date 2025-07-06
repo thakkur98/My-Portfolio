@@ -97,14 +97,15 @@ const MenuButton = styled.div`
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleScrollTo = (desktop, mobile) => {
+ const handleScrollTo = (desktop: number, mobile: number) => {
   const isMobile = window.innerWidth <= 768;
   window.scrollTo({
     top: isMobile ? mobile : desktop,
-    behavior: 'smooth'
+    behavior: 'smooth',
   });
-  setMenuOpen(false); // close menu on click
+  setMenuOpen(false);
 };
+
 
   return (
     <HeaderWrapper>
