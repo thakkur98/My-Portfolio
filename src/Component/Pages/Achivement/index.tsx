@@ -50,7 +50,7 @@ const Achivement = () => {
     <AchivementStyle>
       <h2>Achievements</h2>
       <ul>
-        <li>Awarded "Best Newcomer" for delivering key modules ahead of schedule at IExceed.</li>
+        <li>Awarded Best Newcomer for delivering key modules ahead of schedule at IExceed.</li>
         <li>Completed Jira Fundamentals Badge from Atlassian University.</li>
         <li>Represented school in Basketball (Cluster Level).</li>
         <li>Completed Certificate Course in Python and Node.js.</li>
