@@ -57,12 +57,12 @@ const Footer = () => {
     <FooterWrapper>
       <FooterText>
         🚀 Built with passion by{' '}
-        <FooterLink href="https://your-link.com" target="_blank" rel="noopener noreferrer">
+        <FooterLink href="https://github.com/thakkur98/My-Portfolio" target="_blank" rel="noopener noreferrer">
           Mohit Bisht
         </FooterLink>
       </FooterText>
       <SocialLinks>
-        <FooterLink href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <FooterLink href="https://github.com/thakkur98/My-Portfolio" target="_blank" rel="noopener noreferrer">
           <FaGithub /> GitHub
         </FooterLink>
         <FooterLink href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
