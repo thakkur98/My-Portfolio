@@ -25,8 +25,11 @@ const Logo = styled.p`
   color: #4f46e5;
   cursor: pointer;
 `;
+interface NavLinksProps {
+  isOpen: boolean;
+}
 
-const NavLinks = styled.ul`
+const NavLinks = styled.ul<NavLinksProps>`
   display: flex;
   gap: 64px;
   list-style: none;
