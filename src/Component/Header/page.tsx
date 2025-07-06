@@ -109,7 +109,7 @@ const Header = () => {
 
   return (
     <HeaderWrapper>
-      <Logo onClick={() => handleScrollTo(0)}>MOHIT PORTFOLIO</Logo>
+      <Logo onClick={() => handleScrollTo(0,0)}>MOHIT PORTFOLIO</Logo>
 
       <MenuButton onClick={() => setMenuOpen(!menuOpen)}>
         <div />
