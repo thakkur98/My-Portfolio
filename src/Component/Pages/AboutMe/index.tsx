@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import Image from 'next/image';
 const AboutMeStyle = styled.div`
   margin: 0 auto 50px;
   max-width: 1200px;
@@ -102,14 +102,15 @@ const AboutMe = () => {
       </div>
       <div className='about-me'>
         <div className='desc-section'>
-         <p>
-            {`As a Software Engineer, I bring a problem-solving mindset, strong coding skills,
-            and a passion for building reliable and efficient software systems. I enjoy collaborating
-            with cross-functional teams, designing scalable solutions, and continuously learning
-            new technologies. Whether it's developing features, optimizing performance, or contributing
-            to clean architecture, I'm committed to writing maintainable code and delivering
-            meaningful impact through technology.`}
-          </p>
+        <p>
+          As a Software Engineer, I bring a problem-solving mindset, strong coding skills,
+          and a passion for building reliable and efficient software systems. I enjoy collaborating
+          with cross-functional teams, designing scalable solutions, and continuously learning
+          new technologies. Whether it&apos;s developing features, optimizing performance, or contributing
+          to clean architecture, I&apos;m committed to writing maintainable code and delivering
+          meaningful impact through technology.
+        </p>
+
           <div className='tech-skill-title'>
             <p>Tech Skills:</p>
           </div>
@@ -124,7 +125,7 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className='img-section'>
-          <img
+          <Image
             src="/images/photos/Mohit-about.jpeg"
             height={300}
             width={500}
