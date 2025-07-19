@@ -2,18 +2,6 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import styled, { keyframes } from "styled-components";
 import MainDashboard from "@/MainDashboard";
-import { Geist, Geist_Mono } from "next/font/google";
-
-// Fonts
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 // Spinner Animation
 const spin = keyframes`

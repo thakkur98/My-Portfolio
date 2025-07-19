@@ -25,8 +25,11 @@ const Logo = styled.p`
   color: #4f46e5;
   cursor: pointer;
 `;
+interface NavLinksProps {
+  isOpen: boolean;
+}
 
-const NavLinks = styled.ul`
+const NavLinks = styled.ul<NavLinksProps>`
   display: flex;
   gap: 64px;
   list-style: none;
@@ -94,18 +97,19 @@ const MenuButton = styled.div`
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleScrollTo = (desktop, mobile) => {
+ const handleScrollTo = (desktop: number, mobile: number) => {
   const isMobile = window.innerWidth <= 768;
   window.scrollTo({
     top: isMobile ? mobile : desktop,
-    behavior: 'smooth'
+    behavior: 'smooth',
   });
-  setMenuOpen(false); // close menu on click
+  setMenuOpen(false);
 };
+
 
   return (
     <HeaderWrapper>
-      <Logo onClick={() => handleScrollTo(0)}>MOHIT PORTFOLIO</Logo>
+      <Logo onClick={() => handleScrollTo(0,0)}>MOHIT PORTFOLIO</Logo>
 
       <MenuButton onClick={() => setMenuOpen(!menuOpen)}>
         <div />

@@ -114,7 +114,7 @@ const MyProfile = () => {
           <p>
             I specialize in <strong>React</strong>, <strong>Next.js</strong>, <strong>Redux</strong>, and modern UI frameworks. I take pride in crafting interfaces that users love to use.
           </p>
-          <h3>I'm passionate about:</h3>
+          <h3>I am passionate about:</h3>
           <ul>
             <li>Crafting seamless user experiences ✨</li>
             <li>Translating creative designs into clean, maintainable code 🎨</li>
