@@ -13,8 +13,11 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "react/no-unescaped-entities": "off",   // disables the `'` issue
-      "@next/next/no-img-element": "warn",    // or use "off" to disable completely
+      // Disable the quote escaping error so build won't fail
+      "react/no-unescaped-entities": "off",
+      
+      // Make <img> only a warning (or change to "off" to fully disable)
+      "@next/next/no-img-element": "warn",
     },
   },
 ];
