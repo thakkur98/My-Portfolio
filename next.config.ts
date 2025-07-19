@@ -5,4 +5,11 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = {
+  devIndicators: {
+    buildActivity: false,
+  },
+};
+
+
 export default nextConfig;
