@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 const DashboardWrapper = styled.div`
   padding: 250px 20px 100px;
@@ -103,7 +104,7 @@ const MyProfile = () => {
     <DashboardWrapper>
       <div className='profile-div'>
         <div className='profile-img'>
-          <img src="/images/photos/Mohit-profile.jpeg" alt="Mohit About" height={370} width={300} />
+          <Image src="/images/photos/Mohit-profile.jpeg" alt="Mohit About" height={370} width={300} />
         </div>
         <Highlight>
           <p>Hello 👋, my name is</p>
