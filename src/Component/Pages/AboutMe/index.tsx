@@ -102,13 +102,13 @@ const AboutMe = () => {
       </div>
       <div className='about-me'>
         <div className='desc-section'>
-          <p>
-            As a Software Engineer, I bring a problem-solving mindset, strong coding skills,
+         <p>
+            {`As a Software Engineer, I bring a problem-solving mindset, strong coding skills,
             and a passion for building reliable and efficient software systems. I enjoy collaborating
             with cross-functional teams, designing scalable solutions, and continuously learning
             new technologies. Whether it's developing features, optimizing performance, or contributing
             to clean architecture, I'm committed to writing maintainable code and delivering
-            meaningful impact through technology.
+            meaningful impact through technology.`}
           </p>
           <div className='tech-skill-title'>
             <p>Tech Skills:</p>
